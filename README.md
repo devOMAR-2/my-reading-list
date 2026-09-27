@@ -2,6 +2,8 @@
 
 A lightweight Chrome extension for saving articles and webpages to read later.
 
+[Install from the Chrome Web Store](https://chromewebstore.google.com/detail/my-reading-list/pbbfenbhgbiekmbancmmmihcoodljjek)
+
 Built with plain JavaScript and Chrome's local storage API — no account, backend, or external database required.
 
 ## Features
@@ -21,6 +23,20 @@ My Reading List adds a small bookmark action to webpages. Saved URLs are stored 
 
 When the popup is opened, the extension resolves and caches page titles to keep the list easy to scan.
 
+## Installation
+
+### Chrome Web Store
+
+The easiest way to install My Reading List is from the [Chrome Web Store](https://chromewebstore.google.com/detail/my-reading-list/pbbfenbhgbiekmbancmmmihcoodljjek).
+
+### Manual Installation
+
+1. Clone or download this repository.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Select **Load unpacked**.
+5. Choose the project directory.
+
 ## Tech
 
 - JavaScript
@@ -29,19 +45,9 @@ When the popup is opened, the extension resolves and caches page titles to keep 
 - Manifest V3
 - `chrome.storage.local`
 
-## Installation
-
-1. Clone or download this repository.
-2. Open `chrome://extensions` in Google Chrome.
-3. Enable **Developer mode**.
-4. Select **Load unpacked**.
-5. Choose the project directory.
-
-The extension will appear in your Chrome toolbar and is ready to use.
-
 ## Privacy
 
-My Reading List stores your saved URLs locally in your browser. It does not require an account or a backend service.
+My Reading List stores your saved URLs locally in your browser. It does not require an account or a backend service and does not collect user data.
 
 ## License
 
