@@ -1,69 +1,48 @@
 # My Reading List
 
-My Reading List is a powerful and intuitive Chrome extension designed to help you manage and organize articles you wish to read later. Whether you're researching for a project, exploring interesting topics, or simply bookmarking articles for future reference, this extension ensures you never lose track of the valuable content you come across on the web.
+A lightweight Chrome extension for saving articles and webpages to read later.
 
-## Core Features
+Built with plain JavaScript and Chrome's local storage API — no account, backend, or external database required.
 
-1. Effortless Bookmarking
+## Features
 
-    Quickly bookmark any article with a single click. The extension adds a convenient "Bookmark this article" button to every webpage you visit, allowing you to save articles instantly.
+- Save the current page with one click
+- Keep your reading list stored locally in Chrome
+- Automatically display page titles
+- Cache fetched titles for faster access
+- Prevent duplicate bookmarks
+- Open saved pages directly from the extension popup
+- Remove items from your reading list at any time
+- Built for Chrome Extension Manifest V3
 
-2. Automatic Title Fetching
+## How It Works
 
-    When you bookmark an article, the extension automatically fetches and displays the article's title, making it easier for you to recognize and organize your saved content.
+My Reading List adds a small bookmark action to webpages. Saved URLs are stored using `chrome.storage.local` and displayed through the extension popup.
 
-3. Persistent Storage
+When the popup is opened, the extension resolves and caches page titles to keep the list easy to scan.
 
-    All your bookmarked articles are stored locally on your device, ensuring that your reading list is always accessible, even when you're offline.
+## Tech
 
-4. Easy Access to Bookmarked Articles
+- JavaScript
+- HTML
+- Chrome Extensions API
+- Manifest V3
+- `chrome.storage.local`
 
-    Access your reading list by clicking on the extension icon. The popup displays a neatly organized list of your saved articles, complete with their titles and links.
+## Installation
 
-5. Article Management
+1. Clone or download this repository.
+2. Open `chrome://extensions` in Google Chrome.
+3. Enable **Developer mode**.
+4. Select **Load unpacked**.
+5. Choose the project directory.
 
-    Easily manage your reading list with the ability to remove articles you no longer need. Each article in the list has a "Remove" button for quick deletion.
+The extension will appear in your Chrome toolbar and is ready to use.
 
-6. Visual Indicators
+## Privacy
 
-    The extension includes visual indicators to show which articles have already been bookmarked. Once an article is bookmarked, the "Bookmark this article" button changes to indicate the article is saved, preventing duplicate bookmarks.
+My Reading List stores your saved URLs locally in your browser. It does not require an account or a backend service.
 
-7. Hover to View Full Titles
+## License
 
-    For articles with long titles, the extension uses text truncation with ellipsis in the list view. Hover over the truncated title to see the full article title as a tooltip.
-
-8. User-Friendly Interface
-
-    The extension features a clean, minimalist design that is easy to navigate. The interface is intuitive, with a focus on user experience and functionality.
-
-9. No Bookmarked Articles Notification
-
-    When there are no articles in your reading list, the extension displays a friendly message indicating that there are no bookmarked articles yet, encouraging you to start saving content.
-
-<br />
-<br />
-<br />
-
-## How to Use My Reading List
-
-1. Install the Extension
-
-    Install My Reading List from the Chrome Web Store and pin the extension icon to your Chrome toolbar for easy access.
-
-2. Bookmark Articles
-
-    When you find an article you want to save, click the "Bookmark this article" button that appears on the page. The button will change to indicate the article has been bookmarked.
-
-3. Access Your Reading List
-
-    Click the extension icon to open the popup and view your reading list. Browse through the titles and click on any article to open it in a new tab.
-
-4. Manage Your Reading List
-
-    Use the "Remove" button next to each article to delete items you no longer need. The extension will update your list and show a notification if there are no bookmarked articles left.
-
-<br />
-<br />
-<br />
-
-My Reading List is an essential tool for anyone who wants to stay organized and make the most out of their online reading. With its user-friendly interface, robust features, and emphasis on convenience and efficiency, this extension is designed to enhance your web browsing and reading experience. Install My Reading List today and take control of your reading habits!
+This project is open source and available under the repository's license.
