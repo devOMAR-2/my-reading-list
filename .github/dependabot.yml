@@ -1,7 +1,15 @@
 version: 2
+
 updates:
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: github-actions
+    directory: /
     schedule:
-      interval: "weekly"
-    open-pull-requests-limit: 5
+      interval: weekly
+      day: sunday
+      time: "06:00"
+      timezone: Asia/Riyadh
+    commit-message:
+      prefix: ci
+    groups:
+      actions:
+        patterns: ["*"]
