@@ -1,5 +1,7 @@
 # My Reading List
 
+[![CodeQL](https://github.com/devOMAR-2/my-reading-list/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/devOMAR-2/my-reading-list/actions/workflows/github-code-scanning/codeql) [![Dependabot Updates](https://github.com/devOMAR-2/my-reading-list/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/devOMAR-2/my-reading-list/actions/workflows/dependabot/dependabot-updates)
+
 A lightweight Chrome extension for saving articles and webpages to read later.
 
 [Install from the Chrome Web Store](https://chromewebstore.google.com/detail/my-reading-list/pbbfenbhgbiekmbancmmmihcoodljjek)
